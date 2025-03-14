@@ -1,0 +1,61 @@
+#home {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  color: #ffffff;
+}
+
+#sidebar {
+  background-color: #002741;
+  width: 82px;
+  height: 1369px;
+}
+
+.menuIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+#menu {
+  font-size: 30px;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+}
+
+.menu-groups {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  gap: 25px;
+  cursor: pointer;
+}
+#apps,
+#clock,
+#groups,
+#image,
+#question,
+#settings,
+#person {
+  padding: 3px;
+  height: 30px;
+  width: 30px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#apps:active,
+#clock:active,
+#groups:active,
+#image:active,
+#question:active,
+#settings:active,
+#person:active {
+  background-color: #666768ea;
+ }
