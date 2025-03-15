@@ -1,0 +1,9 @@
+.ProductivityBar {
+  width: 800px;
+  height: 300px;
+  top: 125px;
+  left: 408px;
+  color:#000;
+  border-radius: 20px;
+  background-color: #ffffff;
+}

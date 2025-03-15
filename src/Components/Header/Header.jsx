@@ -1,17 +1,15 @@
 import React from "react";
-import "./Header.css";
-function AdminInfo() {
+import "./Header.scss";
+function Header() {
   return (
-    <>
+    <div>
       <div className="header">
-        <div className="sub-header">
-          <div>Logo</div>
-          <div>Global Search</div>
-          <div>Admin info</div>
-        </div>
+        Logo Global-Search Admin Info messages notifications
       </div>
-    </>
+      <div className="line-seperator"></div>
+      <div className="sub-header">Dashboard Text and Calendar</div>
+    </div>
   );
 }
 
-export default AdminInfo;
+export default Header;

@@ -1,17 +1,18 @@
 import React from "react";
 import "../../Styles/Home.css";
 import SideBar from "../SideBar/SideBar";
-import AdminInfo from "../Header/Header";
-import Calendar from "../Calendar/Calendar";
-import GridInfo from "../Grid/GridInfo";
+import Header from "../Header/Header";
+import SectionOne from "../Widgets/SectionOne/SectionOne";
+
 function Home() {
   return (
     <div id="home">
       <SideBar />
       <div id="DataInformation">
-        <AdminInfo />
-        <Calendar />
-        <GridInfo />
+        {/* Header info */}
+        <Header />
+        {/* DashBoard Section One */}
+        <SectionOne />
       </div>
     </div>
   );
