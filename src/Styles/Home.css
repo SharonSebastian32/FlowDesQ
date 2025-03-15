@@ -1,14 +1,21 @@
 #home {
   background-color: #ffffff;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   color: #ffffff;
+  display: flex;
+  flex-direction: row;
 }
 
 #sidebar {
   background-color: #002741;
   width: 82px;
   height: 1369px;
+}
+#DataInformation {
+  width: calc(100% - 82px);
+  height: 1369px;
+  background-color: #ff7a7a;
 }
 
 .menuIcons {
@@ -35,7 +42,6 @@
   align-items: center;
   padding-top: 40px;
   gap: 25px;
-  cursor: pointer;
 }
 #apps,
 #clock,
@@ -43,11 +49,17 @@
 #image,
 #question,
 #settings,
+#logout,
 #person {
   padding: 3px;
   height: 30px;
+  cursor: pointer;
   width: 30px;
   transition: background-color 0.3s ease-in-out;
+}
+#logout {
+  color: #ffffff;
+  margin-top: 825px;
 }
 
 #apps:active,
@@ -58,4 +70,4 @@
 #settings:active,
 #person:active {
   background-color: #666768ea;
- }
+}

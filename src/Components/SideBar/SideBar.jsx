@@ -7,6 +7,7 @@ import { MdGroups } from "react-icons/md";
 import { PiImageLight } from "react-icons/pi";
 import { RiQuestionnaireLine } from "react-icons/ri";
 import { IoSettingsOutline } from "react-icons/io5";
+import { TbLogout2 } from "react-icons/tb";
 
 function SideBar() {
   return (
@@ -21,6 +22,12 @@ function SideBar() {
           <PiImageLight id="image" />
           <RiQuestionnaireLine id="question" />
           <IoSettingsOutline id="settings" />
+          <TbLogout2
+            id="logout"
+            onClick={() => {
+              alert("Logout");
+            }}
+          />
         </div>
       </div>
     </div>

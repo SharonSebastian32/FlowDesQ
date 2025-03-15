@@ -1,0 +1,48 @@
+#dataInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  flex-wrap: wrap;
+}
+.weather {
+  margin: 2px;
+  width: 310px;
+  height: 302px;
+  top: 124px;
+  border-radius: 20px;
+  padding: 30px;
+  left: 90px;
+  background-color: brown;
+}
+
+.productivity-bar {
+  margin: 2px;
+  padding: 30px;
+  width: 800px;
+  height: 300px;
+  top: 125px;
+  left: 408px;
+  border-radius: 20px;
+  background-color: rgb(255, 55, 0);
+}
+.work-info {
+  margin: 2px;
+  width: 312px;
+  height: 300px;
+  top: 125px;
+  left: 1406px;
+  gap: 8px;
+  border-radius: 20px;
+}
+
+.work-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-info div {
+  width: 310px;
+  height: 95px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}

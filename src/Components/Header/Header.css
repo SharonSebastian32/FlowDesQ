@@ -1,0 +1,11 @@
+.header {
+  background-color: #ffe600;
+  height: 50px;
+  width: 100%;
+}
+
+.sub-header {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
