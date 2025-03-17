@@ -1,0 +1,10 @@
+.section-three {
+  display: grid;
+  grid-template-columns: 310px 400px 400px 310px;
+  .total {
+    border-radius: 15px;
+    height: 196px;
+    margin: 8px;
+    background-color: #fff;
+  }
+}
