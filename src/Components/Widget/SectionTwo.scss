@@ -1,11 +1,12 @@
 .section-two {
   display: grid;
-  margin-top: 10px;
-  grid-template-columns: 310px 800px 312px;
+  column-gap: 5px;
+  row-gap: 5px;
+  padding-top: 10px;
+  grid-template-columns: 310px 790px 312px;
 }
 .comp {
   background-color: #ffffff;
   height: 380px;
-  margin: 10px;
   border-radius: 15px;
 }

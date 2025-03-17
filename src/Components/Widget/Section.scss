@@ -2,19 +2,13 @@
   color: black;
   display: grid;
   height: 302px;
-  grid-template-columns: 310px 800px 312px;
+  grid-template-columns: 310px 790px 312px;
+  column-gap: 5px;
+  row-gap: 5px;
 }
 
 .item {
   padding: 10px;
-  margin: 8px;
   border-radius: 15px;
   background: #ffffff;
 }
-
-// .item-3-1 {
-//   display: flex;
-//   flex-direction: column;
-//   width: 100%;
-//   background-color: red;
-// }

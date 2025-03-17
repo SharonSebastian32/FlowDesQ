@@ -14,10 +14,16 @@ function Home() {
         {/* Header info */}
         <Header />
         {/* DashBoard Section One */}
-        <SectionOne />
-        <SectionTwo />
-        <SectionThree />
-        <SectionFour />
+        <div
+          style={{
+            margin: "10px",
+          }}
+        >
+          <SectionOne />
+          <SectionTwo />
+          <SectionThree />
+          <SectionFour />
+        </div>
       </div>
     </div>
   );
