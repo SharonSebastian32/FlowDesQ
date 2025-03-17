@@ -2,7 +2,7 @@ import React from "react";
 import "../../Styles/Home.css";
 import SideBar from "../SideBar/SideBar";
 import Header from "../Header/Header";
-import SectionOne from "../Widgets/SectionOne/SectionOne";
+import SectionOne from "../Widget/SectionOne";
 
 function Home() {
   return (

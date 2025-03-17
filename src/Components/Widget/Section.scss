@@ -1,0 +1,12 @@
+.section-one-container {
+  color: black;
+  display: grid;
+  height: 302px;
+  grid-template-columns: 310px 800px 312px;
+}
+
+.item {
+  border: 1px solid black;
+  margin: 10px;
+}
+
