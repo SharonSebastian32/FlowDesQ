@@ -1,15 +1,16 @@
 import React from "react";
-import "./MostLogged.scss";
+import "../MostLogged/MostLogged.scss";
+import "./NeutralApp.scss";
 import Navi from "../../assets/Navigator.png";
-import { MdGroups } from "react-icons/md";
 import { FaArrowTrendUp } from "react-icons/fa6";
+import { GrAppsRounded } from "react-icons/gr";
 
-function MostLogged() {
+function NeutralApp() {
   return (
     <>
       <div className="most-log-container">
         <div>
-          <span id="title">Most offline Time Logges</span>
+          <span id="title">Neutral Apps</span>
           <div className="arrow-container">
             <span>
               <FaArrowTrendUp className="arrow-down-icon" />
@@ -22,11 +23,14 @@ function MostLogged() {
         </div>
       </div>
       <div className="no-one-offline">
-        <MdGroups id="group-icon" />
-        <span>No One is Offline</span>
+        <GrAppsRounded id="group-icon" />
+        <span className="span-neutral">
+          <span> Your team haven’t used</span>
+          <span>neutral apps yet </span>
+        </span>
       </div>
     </>
   );
 }
 
-export default MostLogged;
+export default NeutralApp;

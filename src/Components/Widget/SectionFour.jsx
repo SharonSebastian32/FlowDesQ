@@ -3,6 +3,7 @@ import "./SectionFour.scss";
 import MostLogged from "../MostLogged/MostLogged";
 import ProductiveApps from "../ProductivityApps/ProductiveApps";
 import UnProductive from "../UnProductiveApps/UnProductive";
+import NeutralApp from "../Neutral Apps/NeutralApp";
 
 function SectionFour() {
   return (
@@ -17,8 +18,9 @@ function SectionFour() {
       <div className="most undproductive">
         <UnProductive />
       </div>
-      {/* Neutral Apps */}
-      <div className="most neutral">Neutral Apps</div>
+      <div className="most neutral">
+        <NeutralApp />
+      </div>
     </div>
   );
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "./UnProductive.scss";
-import { FaArrowTrendDown } from "react-icons/fa6";
+
+import { FaArrowTrendUp } from "react-icons/fa6";
+
 import Navi from "../../assets/Navigator.png";
 function UnProductive() {
   const UnProductive = [
@@ -28,7 +30,7 @@ function UnProductive() {
             <span className="productive-apps-title">UnProductive Apps</span>
             <span className="arrow-container">
               <span>
-                <FaArrowTrendDown id="arrow-down-icon" />
+                <FaArrowTrendUp id="arrow-down-icon" />
               </span>
               <span>+3% Increase than yesterday</span>
             </span>

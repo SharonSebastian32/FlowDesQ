@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProductiveApp.scss";
-import { FaArrowTrendDown } from "react-icons/fa6";
+import { FaArrowTrendUp } from "react-icons/fa6";
 import Navi from "../../assets/Navigator.png";
 function ProductiveApps() {
   const ProductiveApps = [
@@ -28,7 +28,7 @@ function ProductiveApps() {
             <span className="productive-apps-title">Productivity Apps</span>
             <span className="arrow-container">
               <span>
-                <FaArrowTrendDown id="arrow-down-icon" />
+                <FaArrowTrendUp id="arrow-down-icon" />
               </span>
               <span>+3% Increase than yesterday</span>
             </span>
