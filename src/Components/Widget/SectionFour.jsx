@@ -1,6 +1,8 @@
 import React from "react";
 import "./SectionFour.scss";
 import MostLogged from "../MostLogged/MostLogged";
+import ProductiveApps from "../ProductivityApps/ProductiveApps";
+import UnProductive from "../UnProductiveApps/UnProductive";
 
 function SectionFour() {
   return (
@@ -8,10 +10,13 @@ function SectionFour() {
       <div className="most logged">
         <MostLogged />
       </div>
-      {/* Productivity Apps */}
-      <div className="most productive"></div>
-      {/* Unproductivity Apps */}
-      <div className="most undproductive">Unproductivity Apps</div>
+
+      <div className="most productive">
+        <ProductiveApps />
+      </div>
+      <div className="most undproductive">
+        <UnProductive />
+      </div>
       {/* Neutral Apps */}
       <div className="most neutral">Neutral Apps</div>
     </div>
