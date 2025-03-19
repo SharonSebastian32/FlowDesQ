@@ -4,11 +4,13 @@ import ProductivityHigh from "../SecondWidgets/DayHighLights/Productivity/Produc
 import LateWidget from "../SecondWidgets/DayHighLights/Late/LateWidget";
 import Arrived from "../SecondWidgets/DayHighLights/Arrived/Arrived";
 import Absent from "../SecondWidgets/DayHighLights/Absent/Absent";
+
 function SectionTwo() {
   return (
     <div className="section-two">
-      {/* total workign time doughnut chart */}
+      {/* total working time doughnut chart */}
       <div className="comp working">Working Time</div>
+
       {/*   Productivity, Absent, Arrived, Late */}
       <div
         className="comp main4Components"
@@ -25,7 +27,6 @@ function SectionTwo() {
         <div
           style={{
             backgroundColor: "white",
-
             borderRadius: "10px",
           }}
         >
@@ -34,7 +35,6 @@ function SectionTwo() {
         <div
           style={{
             backgroundColor: "white",
-            color: "white",
             borderRadius: "10px",
           }}
         >
@@ -43,7 +43,6 @@ function SectionTwo() {
         <div
           style={{
             backgroundColor: "white",
-
             borderRadius: "10px",
           }}
         >
@@ -58,8 +57,35 @@ function SectionTwo() {
           <Arrived />
         </div>
       </div>
+
       {/* Productive, Slacking */}
-      <div className="comp twoComponents">2 Components</div>
+      <div
+        className="comp twoComponents"
+        style={{
+          display: "grid",
+          gridTemplateRows: "1fr 1fr",
+          gap: "10px",
+        }}
+      >
+        <div
+          style={{
+            backgroundColor: "white",
+            borderRadius: "10px",
+            padding: "10px",
+          }}
+        >
+          Productive Component
+        </div>
+        <div
+          style={{
+            backgroundColor: "white",
+            borderRadius: "10px",
+            padding: "10px",
+          }}
+        >
+          Slacking Component
+        </div>
+      </div>
     </div>
   );
 }
