@@ -1,13 +1,18 @@
 import "./ProductionInPercentile.scss";
 import { MdOutlineTrendingUp } from "react-icons/md";
-
+import Nav from "../../../../assets/Navigator.png";
+import Bar from "../../../../assets/BarIcon.png";
 function ProductionInPercentile() {
   return (
     <div className="production-in-percentile">
       <div className="ppercentile-details">
         <div className="icon-content-percentile">
           <div>
-            <span id="productivity-icon" class="material-symbols-outlined">
+            <span
+              id="productivity-icon"
+              style={{ color: "#4F45B6" }}
+              class="material-symbols-outlined"
+            >
               avg_time
             </span>
           </div>
@@ -21,11 +26,11 @@ function ProductionInPercentile() {
             fontSize: "24px",
             lineHeight: "100%",
             letterSpacing: "0px",
-            color: "#FFAB00",
             display: "flex",
             alignItems: "center",
             flexDirection: "row",
             justifyContent: "center",
+            color: "#4F45B6",
           }}
         >
           30%
@@ -71,7 +76,39 @@ function ProductionInPercentile() {
           </div>
         </div>
       </div>
-      <div className="ppercentile-charts">Bar Chart Symbol</div>
+      <div></div>
+      <div
+        className="ppercentile-charts"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          alignItems: "center",
+          paddingLeft: "45px",
+        }}
+      >
+        <div>
+          <img
+            src={Bar}
+            alt=""
+            style={{
+              height: "33px",
+              width: "30px",
+            }}
+          />
+        </div>
+        <div>
+          <img
+            style={{
+              marginTop: "20px",
+              height: "68px",
+              width: "68px",
+            }}
+            src={Nav}
+            alt=""
+          />
+        </div>
+      </div>
     </div>
   );
 }

@@ -64,7 +64,7 @@ function ProductivityHigh() {
               fontSize: 16,
               lineHeight: "100%",
               letterSpacing: 0,
-              padding: "3px",
+              paddingTop: "3px",
             }}
           >
             Lorem Ipsum
