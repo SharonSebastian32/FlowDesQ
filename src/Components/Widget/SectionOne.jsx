@@ -1,6 +1,7 @@
 import React from "react";
 import "./Section.scss";
-import Clock from "../Clock/Clock";
+import Clock from "../FirstWidgets/Clock/Clock";
+import Effeciency from "../FirstWidgets/Effeciency/Effeciency";
 
 function SectionOne() {
   return (
@@ -9,10 +10,13 @@ function SectionOne() {
         <Clock />
       </div>
       <div className="item item-2">Productivity Bar</div>
-      <div className="item item-3">
-        <div className="item-3-1">Effeciency</div>
-        <div className="item-3-1">Effeciency</div>
-        <div className="item-3-1">Effeciency</div>
+      <div
+        className="item item-3"
+        style={{
+          backgroundColor: "#EFEFF5",
+        }}
+      >
+        <Effeciency />
       </div>
     </div>
   );

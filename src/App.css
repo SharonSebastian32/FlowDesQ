@@ -5,6 +5,6 @@
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-} */
+}

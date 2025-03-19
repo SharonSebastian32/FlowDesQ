@@ -17,20 +17,21 @@
     flex-direction: column;
   }
   #timer {
+    font-family: "Lexend";
     font-weight: 300;
-    font-size: 26px;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #7e85b5;
+   }
+  #insight {
+    font-family: "Lexend";
+    font-weight: 300;
+    font-size: 12px;
     line-height: 100%;
     letter-spacing: 0px;
     color: #252c58;
-    font-weight: 500;
-  }
-  #insight {
-    font-weight: 500;
-    font-size: 12px;
-
-    line-height: 100%;
-    letter-spacing: 0px;
-    color: #000000;
+    padding-top: 2px;
   }
 }
 
@@ -43,6 +44,7 @@
   #today {
     font-weight: 600;
     font-size: 16px;
+    color: "#252C58";
   }
   #date {
     padding-top: 8px;
