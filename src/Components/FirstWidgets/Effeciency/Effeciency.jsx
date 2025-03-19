@@ -30,8 +30,7 @@ function Effeciency() {
         gap: "8px",
       }}
     >
-      {/* 3times */}
-
+      {" "}
       {EffeciencyData.map((item) => (
         <div
           style={{
@@ -40,66 +39,64 @@ function Effeciency() {
             padding: "10px",
             borderRadius: "16px",
             backgroundColor: "white",
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            gap: "100px",
           }}
         >
           <div
             style={{
+              width: "92px",
+              height: "58px",
+              top: "18px",
+              left: "32px",
               display: "flex",
-              flexDirection: "row",
-              marginTop: "8px",
+              flexDirection: "column",
+              justifyContent: "center",
+              gap: "3px",
+              marginLeft: "16px",
             }}
           >
-            <div
+            <span
               style={{
-                width: "50%",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
+                fontFamily: "Montserrat",
+                fontWeight: 500,
+                fontSize: "16px",
+                lineHeight: "18px",
+                letterSpacing: "0%",
+                verticalAlign: "middle",
               }}
             >
-              <span
-                style={{
-                  color: "black",
-                  display: "flex",
-                  justifyContent: "center",
-                  flexDirection: "column",
-                }}
-              >
-                <div
-                  style={{
-                    fontFamily: "Montserrat",
-                    fontWeight: 500,
-                    fontSize: 16,
-                    lineHeight: "36px",
-                    letterSpacing: "0%",
-                    verticalAlign: "middle",
-                    color: "#000000",
-                  }}
-                >
-                  {item.title}
-                </div>
-                <div
-                  style={{
-                    fontFamily: "Montserrat",
-                    fontWeight: 500,
-                    fontSize: 14,
-                    lineHeight: "22px",
-                    letterSpacing: "0%",
-                    verticalAlign: "middle",
-                  }}
-                >
-                  {item.percentage}
-                </div>
-              </span>
-            </div>
-            <div
+              {item.title}
+            </span>
+            <span
               style={{
-                width: "50%",
-                color: `${item.progressBarColor}`,
+                fontFamily: "Montserrat",
+                fontWeight: 500,
+                fontSize: "14px",
+                lineHeight: "22px",
+                letterSpacing: "0%",
+                verticalAlign: "middle",
               }}
             >
-              Progressbar
-            </div>
+              {item.percentage}
+            </span>
+          </div>
+          <div
+            style={{
+              width: "86px",
+              height: "87px",
+              top: "3px",
+              left: "200px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              color:  `${item.progressBarColor}`,
+            }}
+          >
+            Circle
           </div>
         </div>
       ))}
