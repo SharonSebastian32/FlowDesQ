@@ -1,5 +1,9 @@
 import React from "react";
 import "./SectionTwo.scss";
+import ProductivityHigh from "../SecondWidgets/DayHighLights/Productivity/ProductivityHigh";
+import LateWidget from "../SecondWidgets/DayHighLights/Late/LateWidget";
+import Arrived from "../SecondWidgets/DayHighLights/Arrived/Arrived";
+import Absent from "../SecondWidgets/DayHighLights/Absent/Absent";
 function SectionTwo() {
   return (
     <div className="section-two">
@@ -20,39 +24,38 @@ function SectionTwo() {
       >
         <div
           style={{
-            backgroundColor: "green",
-            color: "white",
+            backgroundColor: "white",
+
             borderRadius: "10px",
           }}
         >
-          1
+          <ProductivityHigh />
         </div>
         <div
           style={{
-            backgroundColor: "orange",
+            backgroundColor: "white",
             color: "white",
             borderRadius: "10px",
           }}
         >
-          1
+          <Absent />
         </div>
         <div
           style={{
-            backgroundColor: "blue",
-            color: "white",
+            backgroundColor: "white",
+
             borderRadius: "10px",
           }}
         >
-          1
+          <LateWidget />
         </div>
         <div
           style={{
-            backgroundColor: "pink",
-            color: "white",
+            backgroundColor: "white",
             borderRadius: "10px",
           }}
         >
-          1
+          <Arrived />
         </div>
       </div>
       {/* Productive, Slacking */}
