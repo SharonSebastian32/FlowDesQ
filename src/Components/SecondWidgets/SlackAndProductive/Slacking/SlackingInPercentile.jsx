@@ -2,21 +2,30 @@ import "./SlackingInPercentile.scss";
 import { MdOutlineTrendingUp } from "react-icons/md";
 import Nav from "../../../../assets/Navigator.png";
 import OrangeBar from "../../../../assets/OrangeBar.png";
+import Hash from "../../../../assets/hash.png";
 function SlackingInPercentile() {
   return (
     <div className="production-in-percentile">
       <div className="ppercentile-details">
         <div className="icon-content-percentile">
           <div>
-            <span
-              id="productivity-icon"
-              style={{ color: "#4F45B6" }}
-              class="material-symbols-outlined"
-            >
-              avg_time
-            </span>
+            <img
+              src={Hash}
+              alt=""
+              style={{
+                color: "#00A76F",
+                backgroundColor: "#F1F1F1",
+                height: "40px",
+                width: "40px",
+                padding: "10px",
+                borderRadius: "50px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            />
           </div>
-          <div className="ppercentile-content">Productive</div>
+          <div className="ppercentile-content">Slacking</div>
         </div>
         <div
           style={{
@@ -33,7 +42,7 @@ function SlackingInPercentile() {
             color: "#FFAB00",
           }}
         >
-          30%
+          5%
         </div>
         <div>
           <div

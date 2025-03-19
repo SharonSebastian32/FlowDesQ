@@ -76,7 +76,7 @@ function ProductionInPercentile() {
           </div>
         </div>
       </div>
-      <div></div>
+       
       <div
         className="ppercentile-charts"
         style={{

@@ -25,7 +25,6 @@ function ProductivityHigh() {
                 backgroundColor: "#F1F1F1",
                 height: "40px",
                 width: "40px",
-                // padding: "2px 10px",
                 borderRadius: "50px",
                 display: "flex",
                 alignItems: "center",
@@ -119,7 +118,7 @@ function ProductivityHigh() {
             height: "30%",
             display: "flex",
             flexDirection: "row",
-             justifyContent: "flex-end",
+            justifyContent: "flex-end",
 
             alignItems: "center",
           }}
