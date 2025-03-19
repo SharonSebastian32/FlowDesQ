@@ -12,7 +12,12 @@ import { TbLogout2 } from "react-icons/tb";
 function SideBar() {
   return (
     <div id="sidebar">
-      <div className="menuIcons">
+      <div
+        className="menuIcons"
+        style={{
+          color: "white",
+        }}
+      >
         <IoMenuSharp id="menu" />
         <div className="menu-groups">
           <GrAppsRounded id="apps" />

@@ -4,6 +4,8 @@ import ProductivityHigh from "../SecondWidgets/DayHighLights/Productivity/Produc
 import LateWidget from "../SecondWidgets/DayHighLights/Late/LateWidget";
 import Arrived from "../SecondWidgets/DayHighLights/Arrived/Arrived";
 import Absent from "../SecondWidgets/DayHighLights/Absent/Absent";
+import ProductionInPercentile from "../SecondWidgets/SlackAndProductive/Producting/ProductionInPercentile";
+import SlackingInPercentile from "../SecondWidgets/SlackAndProductive/Slacking/SlackingInPercentile";
 
 function SectionTwo() {
   return (
@@ -67,24 +69,11 @@ function SectionTwo() {
           gap: "10px",
         }}
       >
-        <div
-          style={{
-            backgroundColor: "white",
-            borderRadius: "10px",
-            padding: "10px",
-          }}
-        >
-          Productive Component
-        </div>
-        <div
-          style={{
-            backgroundColor: "white",
-            borderRadius: "10px",
-            padding: "10px",
-          }}
-        >
-          Slacking Component
-        </div>
+        {/* Productive Component */}
+        <ProductionInPercentile />
+
+        {/*Slacking Component*/}
+        <SlackingInPercentile />
       </div>
     </div>
   );

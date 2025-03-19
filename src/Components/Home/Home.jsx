@@ -8,7 +8,7 @@ import SectionThree from "../Widget/SectionThree";
 import SectionFour from "../Widget/SectionFour";
 function Home() {
   return (
-    <div id="home">
+    <div className="home">
       <SideBar />
       <div id="DataInformation">
         {/* Header info */}

@@ -21,7 +21,7 @@ function ProductivityHigh() {
             <span
               class="material-symbols-outlined"
               style={{
-                color: "green",
+                color: "#00A76F",
                 backgroundColor: "#F1F1F1",
                 height: "40px",
                 width: "40px",
@@ -119,8 +119,7 @@ function ProductivityHigh() {
             height: "30%",
             display: "flex",
             flexDirection: "row",
-            // backgroundColor: "yellow",
-            justifyContent: "flex-end",
+             justifyContent: "flex-end",
 
             alignItems: "center",
           }}
