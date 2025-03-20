@@ -2,8 +2,10 @@ import React from "react";
 import { GoChevronLeft } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
 import { FaCalendarDays } from "react-icons/fa6";
-import { MdOutlineCalendarMonth } from "react-icons/md";
+import { BiMessageRoundedDetail } from "react-icons/bi";
+import { MdOutlineNotifications } from "react-icons/md";
 
+import Logo from "../../Assets/Logo.png";
 import "./Header.scss";
 function Header() {
   return (
@@ -14,11 +16,70 @@ function Header() {
           display: "flex",
           flexDirection: "row",
           alignItems: "center",
-          padding: "20px",
+          padding: "6px",
+          justifyContent: "space-between",
         }}
       >
-        Logo Global-Search Admin Info messages notifications
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            gap: "35px",
+          }}
+        >
+          <div>
+            <img
+              src={Logo}
+              alt=""
+              style={{
+                width: "144px",
+                height: "36px",
+              }}
+            />
+          </div>
+          <div>
+            <input id="search-bar-input" type="text" />
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            // backgroundColor: "red",
+
+            gap: "15px",
+          }}
+        >
+          <div>
+            <BiMessageRoundedDetail className="notification-icon" />
+          </div>
+
+          <div>
+            <MdOutlineNotifications className="notification-icon" />
+          </div>
+
+          {/* <div className="icon-container">
+            <div className="icon-wrapper">
+              <BiMessageRoundedDetail className="notification-icon" />
+              <div className="notification-dot"></div>
+            </div>
+
+            <div className="icon-wrapper">
+              <MdOutlineNotifications className="notification-icon" />
+              <div className="notification-dot"></div>
+            </div>
+          </div> */}
+
+          <div id="profile-role-name">
+            <div>Admin</div>
+            <div>Muhammed Navab</div>
+          </div>
+          <div id="avatar-profile">MN</div>
+        </div>
       </div>
+
       <div className="line-seperator"></div>
       <div className="sub-header">
         <div className="text-dash">Dashboard</div>

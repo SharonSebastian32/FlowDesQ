@@ -23,7 +23,7 @@
     line-height: 100%;
     letter-spacing: 0px;
     color: #7e85b5;
-   }
+  }
   #insight {
     font-family: "Lexend";
     font-weight: 300;
@@ -56,17 +56,17 @@
 #view {
   padding-top: 20px;
 
-  button {
+  #clock-button {
     border: none;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0px;
     width: 218px;
     height: 41px;
     padding: 7px 20px;
-    background: linear-gradient(270deg, #f3763f 0%, #fcb339 100%);
+    background: linear-gradient(to right, #f4ac8d 0%, #fd0000 100%);
     border-radius: 20px;
     color: #ffffff;
   }

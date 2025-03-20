@@ -41,7 +41,7 @@ function Clock() {
       </div>
 
       <div id="view">
-        <button onClick={() => alert("feature will update soon..")}>
+        <button id="clock-button" onClick={() => alert("feature will update soon..")}>
           View Attendance
         </button>
       </div>
