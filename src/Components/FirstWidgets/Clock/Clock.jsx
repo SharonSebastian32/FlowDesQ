@@ -28,7 +28,7 @@ function Clock() {
       <div id="sub-container">
         <GoSun id="sun" />
         <span id="time">
-          <span id="timer" style={{}}>
+          <span id="timer" >
             {time}
           </span>
           <span id="insight">Realtime Insight</span>

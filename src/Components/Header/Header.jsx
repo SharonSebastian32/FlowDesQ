@@ -60,17 +60,6 @@ function Header() {
             <MdOutlineNotifications className="notification-icon" />
           </div>
 
-          {/* <div className="icon-container">
-            <div className="icon-wrapper">
-              <BiMessageRoundedDetail className="notification-icon" />
-              <div className="notification-dot"></div>
-            </div>
-
-            <div className="icon-wrapper">
-              <MdOutlineNotifications className="notification-icon" />
-              <div className="notification-dot"></div>
-            </div>
-          </div> */}
 
           <div id="profile-role-name">
             <div>Admin</div>
