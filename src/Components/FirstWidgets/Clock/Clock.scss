@@ -58,15 +58,16 @@
 
   #clock-button {
     border: none;
+    font-family: Lexend;
     cursor: pointer;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0px;
     width: 218px;
     height: 41px;
     padding: 7px 20px;
-    background: linear-gradient(270deg, #f3763f 0%, #fcb339 100%);
+    background: linear-gradient(to right, #f3763f, #ff1a00);
     border-radius: 20px;
     color: #ffffff;
   }

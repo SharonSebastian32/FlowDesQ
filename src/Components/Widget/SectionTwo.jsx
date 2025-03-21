@@ -6,7 +6,8 @@ import Arrived from "../SecondWidgets/DayHighLights/Arrived/Arrived";
 import Absent from "../SecondWidgets/DayHighLights/Absent/Absent";
 import ProductionInPercentile from "../SecondWidgets/SlackAndProductive/Producting/ProductionInPercentile";
 import SlackingInPercentile from "../SecondWidgets/SlackAndProductive/Slacking/SlackingInPercentile";
-import WorkingTimeDoughnut from "../Graphs/WorkingTimeDoughnut";
+import WorkingTimeDoughnut from "../Graphs/Doughnut/WorkingTimeDoughnut";
+
 function SectionTwo() {
   return (
     <div className="section-two">
