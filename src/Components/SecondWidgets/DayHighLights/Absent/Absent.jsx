@@ -1,7 +1,7 @@
 import "./Absent.scss";
 import React from "react";
 import "../Productivity/ProductivityHigh.scss";
-import AbsentImage from "../../../../assets/Absent.png";
+import AbsentImage from "../../../../assets/AbsentIcon.png";
 import Navi from "../../../../assets/Navigator.png";
 
 function Absent() {
