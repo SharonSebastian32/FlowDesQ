@@ -10,7 +10,7 @@ import "./WorkingGraph.scss";
 };
 
 const CHART_HEIGHT = {
-  default: 200,
+  default: 150,
   mobile: 150,
 };
 

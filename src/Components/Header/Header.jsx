@@ -5,7 +5,7 @@ import { FaCalendarDays } from "react-icons/fa6";
 import { BiMessageRoundedDetail } from "react-icons/bi";
 import { MdOutlineNotifications } from "react-icons/md";
 
-import Logo from "../../Assets/Logo.png";
+import Logo from "../../assets/Logo.png";
 import "./Header.scss";
 function Header() {
   return (
