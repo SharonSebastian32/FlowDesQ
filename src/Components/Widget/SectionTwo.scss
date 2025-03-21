@@ -3,7 +3,7 @@
   column-gap: 5px;
   row-gap: 5px;
   padding-top: 10px;
-  grid-template-columns: 310px 790px 312px;
+  grid-template-columns: 305px auto 305px;
 }
 
 .comp {
@@ -15,4 +15,4 @@
   background-color: #ffffff;
 }
 .twoComponents {
- }
+}

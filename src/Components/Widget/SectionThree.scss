@@ -1,13 +1,12 @@
 .section-three {
   display: grid;
-  grid-template-columns: 310px 394px 394px 310px;
+  grid-template-columns: 306px auto auto 309px;
   column-gap: 5px;
   row-gap: 5px;
   padding-top: 10px;
   .total {
     border-radius: 15px;
     height: 206px;
-
     background-color: #fff;
   }
 }

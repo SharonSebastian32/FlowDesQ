@@ -4,7 +4,7 @@
   #sun {
     height: 50px;
     width: 50px;
-    color: #f8c140;
+    color: #ff9500;
   }
   #sub-container {
     display: flex;
@@ -22,15 +22,15 @@
     font-size: 28px;
     line-height: 100%;
     letter-spacing: 0px;
-    color: #7e85b5;
-   }
+    color: #8c8f9e;
+  }
   #insight {
     font-family: "Lexend";
     font-weight: 300;
     font-size: 12px;
     line-height: 100%;
     letter-spacing: 0px;
-    color: #252c58;
+    color: #8c8f9e;
     padding-top: 2px;
   }
 }
@@ -56,8 +56,9 @@
 #view {
   padding-top: 20px;
 
-  button {
+  #clock-button {
     border: none;
+    font-family: Lexend;
     cursor: pointer;
     font-weight: 300;
     font-size: 16px;
@@ -66,7 +67,7 @@
     width: 218px;
     height: 41px;
     padding: 7px 20px;
-    background: linear-gradient(270deg, #f3763f 0%, #fcb339 100%);
+    background: linear-gradient(to right, #f3763f, #ff1a00);
     border-radius: 20px;
     color: #ffffff;
   }
