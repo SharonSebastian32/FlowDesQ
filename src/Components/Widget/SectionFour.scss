@@ -1,6 +1,6 @@
 .section-four {
   display: grid;
-  grid-template-columns: 310px 395px 394px 310px;
+  grid-template-columns: 310px auto auto 310px;
 
   column-gap: 5px;
   row-gap: 5px;
